@@ -1,4 +1,6 @@
-#pragma once
+#ifndef COMPUTADORABUILDER_H
+#define COMPUTADORABUILDER_H
+
 #include "../Computadora.h"
 #include <memory>
 
@@ -15,3 +17,5 @@ public:
     // método para obtener el producto terminado
     virtual std::shared_ptr<Computadora> getComputadora() = 0;
 };
+
+#endif
